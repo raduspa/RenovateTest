@@ -29,7 +29,7 @@ jobs:
         cache-dependency-path: './RenovateBot/package-lock.json'
     - run: npm install
       working-directory: ./RenovateBot
-    - run: ./RenovateBot/npm run rbuild
+    - run: npm run rbuild
       working-directory: ./RenovateBot
-    - run: ./RenovateBot/npx renovate
+    - run: npx renovate
       working-directory: ./RenovateBot
