@@ -34,4 +34,4 @@ jobs:
     - run: npx renovate
       working-directory: ./RenovateBot
       env:
-        RENOVATE_TOKEN: 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
+        RENOVATE_TOKEN: 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
