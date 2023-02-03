@@ -1,6 +1,6 @@
 module.exports = {
   platform: 'github',
-  token: process.env.RENOVATE_TOKEN,
+  token: "ssss",
   logLevel: 'debug',
   repositories: ['mihaicozma/RenovateTest'],
   onboarding: false,
