@@ -35,3 +35,4 @@ jobs:
       working-directory: ./RenovateBot
       env:
         RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
+        RENOVATE_TOKEN1: ${{ vars.RENOVATE_TOKEN }}
