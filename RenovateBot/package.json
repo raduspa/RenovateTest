@@ -12,7 +12,7 @@
         "rbuild": "npm run build-re2"
     },
     "dependencies": {
-        "renovate": "34.119.0",
+        "renovate": "34.121.0",
         "cross-env": "7.0.3"
     },
     "license": "ISC"
