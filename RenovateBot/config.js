@@ -1,3 +1,5 @@
+console.log("RENOVATE_TOKEN ", process.env.RENOVATE_TOKEN)
+
 module.exports = {
   platform: 'github',
   token: process.env.RENOVATE_TOKEN,
