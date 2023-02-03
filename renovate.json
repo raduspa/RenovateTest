@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":preserveSemverRanges"    
+  ],
+  "recreateClosed": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "baseBranches": [
+    "main"
+  ],
+  "ignorePaths": [
+    "/node_modules/",
+    "/test/",
+    "/tests/"
+  ],
+  "packageRules": [
+  ]
+}
