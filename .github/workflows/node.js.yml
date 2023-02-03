@@ -34,4 +34,4 @@ jobs:
     - run: npx renovate
       working-directory: ./RenovateBot
       env:
-        RENOVATE_TOKEN: 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
+        RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
