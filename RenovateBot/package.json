@@ -9,8 +9,8 @@
     "scripts": {
         "build": "npx renovate",
         "build-re2-wnpm": "cd node_modules/re2 && npm run install && cd ../../",
-        "build-re2": "cd node_modules/.pnpm/re2@*/node_modules/re2 && pnpm run install && cd ../../",
-        "rbuild": "pnpm run build-re2"
+        "build-re2": "cd node_modules/.pnpm/re2@*/node_modules/re2 && npm run install && cd ../../",
+        "rbuild": "npm run build-re2"
     },
     "dependencies": {
         "renovate": "34.119.0",
